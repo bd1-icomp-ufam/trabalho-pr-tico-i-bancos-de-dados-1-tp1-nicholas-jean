@@ -255,7 +255,7 @@ if __name__ == "__main__":
     password = ""   # senha
     dbname = "postgres"     # nome do bd
 
-    filename = "ex.txt"
+    filename = "amazon-meta.txt"
 
     products, similar_products, categories_data, product_categories,reviews = extract_data(filename)
 
